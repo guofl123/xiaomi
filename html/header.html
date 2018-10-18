@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header_l">
+                <ul>
+                    <li><a href="##">小米商城</a><span>|</span></li>
+                    <li><a href="##">MIUI</a><span>|</span></li>
+                    <li><a href="##">IoT</a><span>|</span></li>
+                    <li><a href="##">云服务</a><span>|</span></li>
+                    <li><a href="##">金融</a><span>|</span></li>
+                    <li><a href="##">有品</a><span>|</span></li>
+                    <li><a href="##">小爱开放平台</a><span>|</span></li>
+                    <li><a href="##">政企服务</a><span>|</span></li>
+                    <li><a href="##">Select Region</a></li>
+                </ul>
+            </div>
+            <div class="header_r">
+                <div class="header_rl">
+                    <a href="login.html">登录</a><span>|</span>
+                    <a href="register.html">注册</a><span>|</span>
+                    <a href="##">消息通知</a>
+                </div>
+                <div class="login_after">账户<span id="account_span">15856948046</span>已登录...<a href="##" id="reset_login">退出登录</a></div>
+                <div class="shopCar">
+                    <a href="shop.html" class="carHover"><i class="iconfont">&#xe600;</i>购物车(<span id="num_shop">0</span>)</a>
+                    <div class="cart-menu">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav">
+        <div class="container">
+            <div class="ximi_logo" class="s">
+                <a href="index.html"  class="s"><img src="../images/logo_03.jpg" alt="" class="s"></a>
+            </div>
+            <!-- <div id="dooble" class="s"><a href="##"  class="s"></a></div> -->
+            <div class="nav_m">
+                <ul id="box_ul_li">
+                    <li class="space"></li>
+                    <li class="hoverShow item_hover" ><a href="##"  class="hoverShowson" data-index=1>小米手机</a></li>
+                    <li class="hoverShow"><a href="##" class="hoverShowson" data-index=2>红米</a></li>
+                    <li class="hoverShow"><a href="##" class="hoverShowson" data-index=3>电视</a></li>
+                    <li class="hoverShow"><a href="##" class="hoverShowson" data-index=4>笔记本</a></li>
+                    <li class="hoverShow"><a href="##" class="hoverShowson" data-index=5>盒子</a></li>
+                    <li class="hoverShow"><a href="##" class="hoverShowson" data-index=6>新品</a></li>
+                    <li class="hoverShow"><a href="##" class="hoverShowson" data-index=7>路由器</a></li>
+                    <li class="hoverShow"><a href="##" class="hoverShowson" data-index=8>智能硬件</a></li>
+                    <li><a href="##"  class="s">服务</a></li>
+                    <li><a href="##"  class="s">社区</a></li>
+                </ul>
+            </div>
+            <div class="nav_search s">
+                <form class="form_search s">
+                    <input type="text" id="text" class="s" placeholder="      小米Nova"/>
+                    <input type="submit" id="btn" value=""><label for="btn"><i class="iconfont s" >&#xe6dd;</i></label>
+                    <!-- <a href="##" class="s">小米Nova</a> -->
+                   
+                    <div class="keyword-list hide">
+                        <ul class="result-list">
+                          
+                            <li><a href="##" class="list_a">笔记本<span>约有5件</span></a></li>
+                            <li><a href="##" class="list_a">路由器<span>约有11件</span></a></li>
+                            <li><a href="##" class="list_a">充电宝<span>约有8件</span></a></li>
+                            <li><a href="##" class="list_a">拖地机<span>约有8件</span></a></li>
+                            <li><a href="##" class="list_a">小米Nova<span>约有8件</span></a></li>
+                            <li><a href="##" class="list_a">游戏机<span>约有8件</span></a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="suspension">
+            <ul id="sus_box" class="container">
+              
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/jquery.cookie.js"></script>
+<script src="../js/header.js"></script>
+<script>
+    new NavInsertData();
+</script>

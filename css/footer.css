@@ -1,0 +1,180 @@
+.container {
+	width: 1226px;
+	margin: 0 auto;
+}
+
+.afterSale {
+	padding: 27px 0 54px 0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.afterSale ul li:nth-child(1) {
+	border: none;
+}
+
+.afterSale ul li {
+	float: left;
+	width: 19.8%;
+	height: 25px;
+	border-left: 1px solid #e0e0e0;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.afterSale ul li a {
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	color: #616161;
+	-webkit-transition: color .2s;
+	transition: color .2s;
+}
+
+.afterSale ul li .iconfont {
+	margin-right: 6px;
+	font-size: 24px;
+	line-height: 24px;
+	vertical-align: -4px;
+}
+
+.footer_link {
+	padding: 40px 0;
+	overflow: hidden;
+}
+
+.footer_link dl {
+	float: left;
+	width: 160px;
+	height: 112px;
+	margin: 0;
+}
+
+.footer_link dl dt {
+	margin: -1px 0 26px;
+	font-size: 14px;
+	line-height: 1.25;
+	color: #424242;
+	display: block;
+}
+
+.footer_link dl dt dd {
+	margin: 10px 0 0;
+	font-size: 12px;
+}
+
+.tel {
+	float: right;
+	width: 251px;
+	height: 112px;
+	border-left: 1px solid #e0e0e0;
+	text-align: center;
+	color: #616161;
+}
+
+.tel .phone {
+	margin: 0 0 5px;
+	font-size: 22px;
+	line-height: 1;
+	color: #ff6700;
+}
+
+.tel .weekday {
+	margin: 0 0 16px;
+	font-size: 12px;
+	text-align: center;
+	color: #616161;
+}
+
+.tel .service {
+	width: 118px;
+	height: 28px;
+	font-size: 12px;
+	line-height: 28px;
+	border: 1px solid #ff6700;
+	text-align: center;
+	-webkit-transition: all .4s;
+	transition: all .4s;
+	background: #fff;
+	color: #ff6700;
+	display: inline-block;
+}
+
+.tel .service:hover {
+	color: #fff;
+	background-color: #f25807;
+	border-color: #f25807;
+}
+
+.footer_bottom {
+	padding: 30px 0;
+	font-size: 12px;
+	background: #fafafa;
+	overflow: hidden;
+}
+
+.footer_bottom .img {
+	float: left;
+	width: 57px;
+	height: 57px;
+	margin-right: 10px;
+	background: url(../images/logo-footer.png) no-repeat 50% 50%;
+	display: block;
+	text-align: left;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+.footer_list {
+	float: left;
+	color: #b0b0b0;
+	font-size: 12px;
+}
+
+.footer_list p {
+	line-height: 18px;
+}
+
+.footer_list .nav_1 a {
+	color: #757575;
+	font-size: 12px;
+}
+
+.footer_list .nav_1 span {
+	margin: 0 .25em;
+	font-family: sans-serif;
+}
+
+.footer a:hover {
+	color: #ff6700;
+}
+
+.footer_logo {
+	float: right;
+	_display: inline;
+	height: 28px;
+	margin: 4px 0 0;
+}
+
+.footer_logo img {
+	width: auto;
+	height: 28px;
+	margin-left: 0px;
+	display: inline;
+}
+
+.xiaomi {
+	clear: both;
+	margin: 30px auto 0;
+	width: 267px;
+	height: 19px;
+	background: url(../images/slogan2016.png) no-repeat center 0;
+	display: block;
+	text-align: left;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+.footer_box {
+	overflow: hidden;
+}

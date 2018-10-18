@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+.milogo img{
+	display: block;
+	margin:0 auto;
+	
+}
+form {
+	width: 330px;
+	height: 500px;
+	margin: 100px auto;
+}
+
+h1 {
+	font-size: 35px;
+	color: black;
+	text-align: center;
+}
+
+p {
+	font-size: 13px;
+	margin-top: 22px;
+}
+
+.country {
+	height: 42px;
+	width: 330px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.inp1 {
+	background: #ffffff;
+	float: left;
+}
+
+.area {
+	height: 42px;
+	width: 38px;
+	border: 1px #E8E8E8 solid;
+	float: right;
+}
+
+.tel {
+	height: 42px;
+	width: 330px;
+	margin-top: 10px;
+}
+
+.tex {
+	width: 80px;
+	height: 40px;
+	float: left;
+	border: 1px #E8E8E8 solid;
+	text-align: center;
+	line-height: 40px;
+}
+
+.inp2 {
+	background: #ffffff;
+	float: left;
+}
+
+.but {
+	background: #FF6700;
+	height: 42px;
+	margin-top: 13px;
+	width: 330px;
+	border: 0px;
+	color: #FFFFFF;
+}
+
+select {
+	border: 0;
+	height: 40px;
+	width: 80px;
+}

@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #666666;
+}
+
+.all {
+	background: url(../images/back.jpg) no-repeat;
+	width: 100%;
+	height: 100%;
+	background-position-x: -600px;
+}
+
+
+/* .back img{
+    display:block;
+    width:1348px;
+    height:512px;
+} */
+
+form {
+	width: 410px;
+	height: 500px;
+	background: #FFFFFF;
+	margin-left: 875px;
+}
+
+ul {
+	margin-left: 70px;
+}
+
+ul li {
+	float: left;
+	margin-right: 45px;
+	margin-top: 35px;
+	font-size: 20px;
+}
+
+ul .one a {
+	color: #EF5B00;
+}
+
+input {
+	width: 350px;
+	height: 50px;
+	margin-left: 28px;
+	/* border:1px solid #E0E0E0;  */
+}
+
+.inp1 {
+	margin-top: 35px;
+}
+
+.inp2 {
+	margin-top: 15px;
+}
+
+.but {
+	width: 350px;
+	height: 50px;
+	background: #EF5B00;
+	margin-top: 25px;
+	margin-left: 28px;
+	color: #FFFFFF;
+	border-width: 0px;
+}
+
+.wangji li {
+	font-size: 13px;
+}
+
+.wangji a {
+	font-size: 13px;
+}
+
+
+/* .wangji ul{
+float:left;
+} */
+
+.wangji .left {
+	margin-left: 28px;
+}
+
+.wangji .left li {
+	float: left;
+	margin-top: 15px;
+	color: #EF5B00;
+}
+
+.wangji .left a {
+	color: #EF5B00;
+}
+
+.wangji .right {
+	margin-right: 28px;
+}
+
+.wangji .right li {
+	float: right;
+	margin-right: 7px;
+	margin-top: 15px;
+	color: #EF5B00;
+}
